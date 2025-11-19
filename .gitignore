@@ -1,0 +1,62 @@
+
+# ===============================
+# Python ignores
+# ===============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.pot
+*.mo
+*.db
+*.sqlite3
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ===============================
+# Streamlit cache
+# ===============================
+.streamlit/
+.cache/
+.stcache/
+st_cache/
+
+# ===============================
+# ChromaDB persistent files
+# ===============================
+data/vector_store/
+data/vector_store/*
+data/vector_store/chroma/
+data/vector_store/chroma/*
+
+# ===============================
+# Encrypted documents
+# ===============================
+data/encrypted_docs/
+data/encrypted_docs/*
+
+# ===============================
+# OS / Editor files
+# ===============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code
+.vscode/
+.history/
+
+# ===============================
+# Project-specific excludes
+# ===============================
+# Encryption key (if you want to exclude it)
+# Uncomment the line below if key should NOT be committed
+# data/fernet.key
