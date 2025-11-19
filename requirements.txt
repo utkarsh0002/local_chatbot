@@ -1,10 +1,30 @@
-rich
-prompt_toolkit
-cryptography
-sentence-transformers
-chromadb
-numpy
-tqdm
-ollama
-streamlit
-pymupdf
+
+# Core Python Libraries
+streamlit==1.31.1
+sentence-transformers==2.2.2
+cryptography==42.0.5
+PyMuPDF==1.23.7
+requests==2.31.0
+
+# ChromaDB (persistent client, no ONNX embeddings)
+chromadb==0.4.22
+
+# Embedding model dependencies
+transformers==4.30.2
+tokenizers==0.13.3
+huggingface-hub==0.14.1
+numpy==1.26.4
+scikit-learn==1.3.2
+
+# Utility libs
+tqdm==4.66.1
+
+# Fix for pydantic incompatibility with chroma
+pydantic==1.10.13
+pydantic-core==2.14.6
+
+# Required for embeddings
+torch==2.1.2
+
+# Optional: if any issues arise with SSL, YAML, etc.
+pyyaml==6.0.1
