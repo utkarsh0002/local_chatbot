@@ -1,0 +1,10 @@
+rich
+prompt_toolkit
+cryptography
+sentence-transformers
+chromadb
+numpy
+tqdm
+ollama
+streamlit
+pymupdf
